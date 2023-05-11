@@ -1,0 +1,1 @@
+Para la versión publicada en github los .txt  con contraseña y correo estan vacios, asi como la variable en la que se encuentra el correo a quien deseamos que lleguen los correos.

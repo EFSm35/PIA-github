@@ -1,0 +1,4 @@
+-INFORME-
+Nombre del dominio: ['NBA.COM', 'nba.com']
+Registrante: CSC CORPORATE DOMAINS, INC.
+Fecha de registro: [datetime.datetime(1994, 11, 28, 5, 0), datetime.datetime(1994, 11, 28, 0, 0)]

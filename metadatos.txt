@@ -1,0 +1,55 @@
+ImageWidth: 720
+ImageLength: 1280
+BitsPerSample: (8, 8, 8)
+GPSInfo: {0: b'\x02\x02\x00\x00', 1: 'N', 2: (25.0, 41.0, 20.424499), 3: 'W', 4: (100.0, 20.0, 54.693603), 5: b'\x01', 6: 0.0, 7: (21.0, 55.0, 25.0), 27: 'GPS', 29: '2019:05:23'}
+ResolutionUnit: 2
+ExifOffset: 287
+DeviceSettingDescription: b'ipp\x00'
+ImageDescription: dav
+Make: HUAWEI
+Model: SNE-LX3
+Software: SNE-LX3 8.2.0.113(C212)
+Orientation: 0
+DateTime: 2019:05:23 16:55:26
+YCbCrPositioning: 1
+XResolution: 72.0
+YResolution: 72.0
+ExifVersion: b'0210'
+ComponentsConfiguration: b'\x01\x02\x03\x00'
+ShutterSpeedValue: 29.8973
+DateTimeOriginal: 2019:05:23 16:55:26
+DateTimeDigitized: 2019:05:23 16:55:26
+ApertureValue: 1.69
+BrightnessValue: 0.0
+ExposureBiasValue: 0.0
+MeteringMode: 5
+LightSource: 1
+Flash: 0
+FocalLength: 3.95
+ColorSpace: 1
+ExifImageWidth: 720
+ExifInteroperabilityOffset: 903
+SceneCaptureType: 0
+SubsecTime: 503738
+SubsecTimeOriginal: 503738
+SubsecTimeDigitized: 503738
+ExifImageHeight: 1280
+SubjectDistanceRange: 0
+SensingMethod: 2
+FileSource: b'\x03'
+ExposureTime: 0.08
+FNumber: 1.8
+SceneType: b'\x01'
+ExposureProgram: 2
+CustomRendered: 1
+ISOSpeedRatings: 1250
+ExposureMode: 0
+FlashPixVersion: b'0100'
+WhiteBalance: 0
+DigitalZoomRatio: 1.0
+FocalLengthIn35mmFilm: 27
+GainControl: 0
+Contrast: 0
+Saturation: 0
+Sharpness: 0
+MakerNote: b'Auto\x00'

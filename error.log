@@ -1,0 +1,406 @@
+ERROR:root:La ruta de la imagen IMG_20190523_1655.jpg no es válida.
+ERROR:root:[Errno 2] No such file or directory: 'domain_info.txt'
+ERROR:root:[Errno 2] No such file or directory: 'correo.txt'
+ERROR:root:(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials r81-20020acaf354000000b0038ee0c3b38esm1956859oih.44 - gsmtp')
+ERROR:root:[Errno 2] No such file or directory: 'correo.txt'
+ERROR:root:(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials y16-20020a4ade10000000b005251f71250dsm117685oot.37 - gsmtp')
+ERROR:root:[Errno 2] No such file or directory: 'correo.txt'
+ERROR:root:(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u5-20020a544385000000b0038ded2e4f05sm1880450oiv.16 - gsmtp')
+ERROR:root:La ruta de la imagen IMG_20190523_16556.jpg no es válida.
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 6c0bb79134a43518
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.example.com> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 1022,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.294552,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 10, 6, 9, 36, 848120),
+ 'httpcompression/response_bytes': 1256,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 5, 10, 6, 9, 36, 553568)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: be20297816037673
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.nintendo.com> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 216,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 78350,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.423054,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 10, 6, 10, 38, 479934),
+ 'httpcompression/response_bytes': 659275,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 5, 10, 6, 10, 38, 56880)}
+INFO:scrapy.core.engine:Spider closed (finished)
+ERROR:root:[Errno 2] No such file or directory: 'testscrapy.txt'
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 0a9ce9ed8ebf5f89
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET https://www.sportingnews.com/mx/nba?gr=www> from <GET https://www.nba.com>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.sportingnews.com/mx/nba?gr=www> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 444,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 22826,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 1.52403,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 10, 6, 23, 57, 204519),
+ 'httpcompression/response_bytes': 117545,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2023, 5, 10, 6, 23, 55, 680489)}
+INFO:scrapy.core.engine:Spider closed (finished)
+ERROR:root:La ruta de la imagen IMG_20190523_16552.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_20190523_16552.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_20190523_12.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_2019052.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_2019052.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_2019052.jpg no es válida.
+ERROR:root:La ruta de la imagen IMG_2019052.jpg no es válida.
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 140d4ff30e348c19
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.example.com> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 1022,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.519055,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 11, 9, 4, 17, 961103),
+ 'httpcompression/response_bytes': 1256,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 5, 11, 9, 4, 17, 442048)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: c034d871ce47e95a
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.example.com> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 1022,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.305517,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 11, 9, 18, 16, 187568),
+ 'httpcompression/response_bytes': 1256,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 5, 11, 9, 18, 15, 882051)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 2.9.0 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.0.1, Twisted 22.10.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.2, Platform Windows-10-10.0.19045-SP0
+INFO:scrapy.crawler:Overridden settings:
+{}
+WARNING:py.warnings:C:\Users\edo-s\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.extensions.telnet:Telnet Password: 052cbf76c90c582d
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET https://www.sportingnews.com/mx/nba?gr=www> from <GET https://www.nba.com>
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.sportingnews.com/mx/nba?gr=www> (referer: None)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 444,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 22873,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 1.179765,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 11, 9, 23, 48, 287636),
+ 'httpcompression/response_bytes': 117522,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2023, 5, 11, 9, 23, 47, 107871)}
+INFO:scrapy.core.engine:Spider closed (finished)
+ERROR:root:[Errno 2] No such file or directory: 'metadatos.txt'
